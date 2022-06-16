@@ -4,105 +4,120 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ludwig's Personal Site</title>
+    <title>Ludwig Weddig</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="favicon2.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <table cellspacing="15">
-      <tr>
-        <td>
+    <div class="top-container">
+      <img class="top-cloud-img" src="images/cloud.png" alt="cloud-img" />
+      <h1>I'm Ludwig</h1>
+      <h2>an engineer.</h2>
+      <img class="bottom-cloud-img" src="images/cloud.png" alt="cloud-img" />
+      <img src="images/mountain.png" alt="mountain-img" />
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img src="images/LW_profil.png" alt="profile-img" />
+        <h2>Hello everyone!</h2>
+        <p class="intro">
+          I'm currently working at
+          <a
+            href="https://www.ri.se/en/what-we-do/expertises/the-national-laboratory-for-pressure-and-vacuum"
+            target="_Blank"
+            >RISE Research Institues of Sweden</a
+          >
+          as an engineer. But at the same time I am studying full stack
+          development in expanding my expertise.
+        </p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
           <img
-            src="LW_profil.png"
-            alt="Ludwig profilbild"
-            width="250"
-            height="250"
+            class="calibration-img"
+            src="images/calibration2.png"
+            alt="calibration-img"
           />
-        </td>
-        <td>
-          <h1>Ludwig Weddig</h1>
+          <h3>Calibration for pressure & vacuum</h3>
           <p>
-            <em
-              >Engineer working at
-
-              <a
-                href="https://www.ri.se/en/what-we-do/expertises/the-national-laboratory-for-pressure-and-vacuum"
-                target="_blank"
-              >
-                <strong>RISE Research Institues of Sweden</strong>
-              </a>
-            </em>
+            I work with calibrating pressure and vacuum measuring instruments at
+            the NMI for pressure & vaccum in Sweden. This means that we are the
+            highest instance for traceablity in the SI-unit Pascal in Sweden. We
+            operate in both oil, water, gas and vacuum.
           </p>
+        </div>
+        <div class="skill-row">
+          <img
+            class="electronics-img"
+            src="images/electronics.png"
+            alt="electronics-img"
+          />
+          <h3>Electronics and programming</h3>
           <p>
-            New student for full stack development in the hopes of changing this
-            to my career fulltime
+            I studied Electro engineering at the university of Halmstad. Before
+            that it was the Electricity and Energy program in serior high
+            school. Always though it was interesting to tinker with electronics,
+            find whats wrong and fix stuff instead of just throwing it away!
+            From here i think my interest for programming woke aswell, all the
+            possibilities and ability for trial and error.
           </p>
-        </td>
-      </tr>
-    </table>
+        </div>
+        <div class="skill-row">
+          <img class="brewing-img" src="images/brewing.png" alt="brewing-img" />
+          <h3>Homebrewing</h3>
+          <p>
+            Depending on what level of homebrewing you aim for the diffuculty
+            level if very different. Myself i keep it at a quite easy level of
+            mostly brewing different kinds of wine but i have also tried cider
+            which I probably will try more of. Beer on the other hand I don't
+            know if I feel like the effort is worth it to get an end result you
+            can compare to buying it in the store.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>So that was a quick summary of me.</h3>
+        <p class="contact-message">
+          If you want to get in touch with me for whatever the reason might be
+          then just click the button below and send me an email or check out my
+          linked in
+        </p>
+        <a class="btn" href="mailto:Ludwigweddig@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
 
-    <hr />
-    <h3><strong>Education</strong></h3>
-    <ul>
-      <li>University:</li>
-      <ul>
-        <li>Electro engineer, 3 years, Halmstad</li>
-        <li>Magister in Electronics design, 1 years, Halmstad</li>
-      </ul>
-      <li>Senior high school:</li>
-      <ul>
-        <li>Electricity and Energy program, 3 years, Varberg</li>
-      </ul>
-    </ul>
-    <hr />
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-      <thead>
-        <tr>
-          <th align="left">Dates</th>
-          <th align="left">Work</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2019-</td>
-          <td>
-            Engineer for The National Laboratory for Pressure and Vacuum at RISE
-          </td>
-        </tr>
-        <tr>
-          <td>2017-2019</td>
-          <td>
-            Engineer for The National Laboratory for Photometry and Radiometry
-            at RISE
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <hr />
-    <h3>Skills</h3>
-    <table cellspacing="10">
-      <tr>
-        <td>Pressure & Vacuum Calibration</td>
-        <td>⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>Web development</td>
-        <td>⭐</td>
-      </tr>
-      <tr>
-        <td>3D-printing</td>
-        <td>⭐⭐</td>
-      </tr>
-      <tr>
-        <td>Electronics</td>
-        <td>⭐⭐⭐</td>
-      </tr>
-    </table>
+    <div class="bottom-container">
+      <a
+        class="footer-link-hidden"
+        href="https://twitter.com/"
+        target="_Blank"
+        ;
+        >Twitter</a
+      >
+      <a
+        class="footer-link"
+        href="https://www.linkedin.com/in/ludwig-weddig-8b6921105/"
+        target="_Blank"
+        >LinkedIn</a
+      >
+      <a
+        class="footer-link-hidden"
+        href="https://www.appbrewery.co/"
+        target="_Blank"
+        >Website</a
+      >
 
-    <!-- Bottom of the page starts here-->
-    <hr />
-    <p>
-      <a href="Hobbies.html"> My Hobbies</a>
-      <a href="Contact_info.html">Contact Me</a>
-    </p>
+      <p class="copyright">© Ludwig Weddig.</p>
+    </div>
   </body>
 </html>
